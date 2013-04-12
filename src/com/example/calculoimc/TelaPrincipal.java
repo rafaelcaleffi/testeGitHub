@@ -56,11 +56,11 @@ public class TelaPrincipal extends Activity {
 				String vazio ="";
 				if(etAltura.getText().toString().equals(""))
 				{
-					vazio = "Campo altura não pode ser vazio.\n";
+					vazio = "Campo altura nï¿½o pode ser vazio.\n";
 				}
 				if(etPeso.getText().toString().equals(""))
 				{
-					vazio+= "Campo peso não pode ser vazio.";
+					vazio+= "Campo peso nï¿½o pode ser vazio.";
 				}
 				
 				if(etAltura.getText().toString().equals("") || etPeso.getText().toString().equals(""))
@@ -73,6 +73,7 @@ public class TelaPrincipal extends Activity {
 				
 				altura = Double.parseDouble(etAltura.getText().toString());						
 				peso = Double.parseDouble(etPeso.getText().toString());
+				
 				
 				
 				
@@ -96,50 +97,50 @@ public class TelaPrincipal extends Activity {
 				
 				if((i==1) && (resultado <20.7))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está abaixo do Peso.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ abaixo do Peso.");
 				}
 				else if((i==1) && (resultado <26.4))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está no peso normal.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ no peso normal.");
 				}
 				
 				else if((i==1) && (resultado <27.8))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está marginalmente acima do peso.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ marginalmente acima do peso.");
 				}
 				
 				else if((i==1) && (resultado <31.1))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está acima do peso ideal.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ acima do peso ideal.");
 				}
 				
 				else if (i==1)
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está obeso.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ obeso.");
 				}
 				
 				else if((i==2) && (resultado <19.1))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está abaixo do peso.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ abaixo do peso.");
 				}
 				
 				else if((i==2) && (resultado <25.8))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está no peso normal.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ no peso normal.");
 				}
 				
 				else if((i==2) && (resultado <27.3))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está marginalmente acima do peso.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ marginalmente acima do peso.");
 				}
 				
 				else if((i==2) && (resultado <32.3))
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está acima do peso ideal.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ acima do peso ideal.");
 				}
 				else					
 				{
-					mensagemExibir("IMC", "Seu IMC é: "+resultado+". \nVocê está obesa.");
+					mensagemExibir("IMC", "Seu IMC ï¿½: "+resultado+". \nVocï¿½ estï¿½ obesa.");
 				}
 			}
 		});
